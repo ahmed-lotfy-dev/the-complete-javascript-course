@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 /*
 Assignment 1 
+=======
+>>>>>>> refs/remotes/origin/main
 let country = 'Egypt';
 let continent = 'Africa';
 let population = 1340598147;
@@ -10,6 +13,7 @@ let isIsland = false;
 let language;
 
 console.log(country, continent, population, isIsland, language);
+<<<<<<< HEAD
 
 */
 
@@ -48,3 +52,5 @@ console.log(markBmi, johnBmi, markHigherBmi);
 const markLowerBmi = markBmi < johnBmi;
 console.log(markBmi, johnBmi, markLowerBmi);
 */
+=======
+>>>>>>> refs/remotes/origin/main

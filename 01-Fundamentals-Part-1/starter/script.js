@@ -11,9 +11,15 @@ let firstName = 'Matilda';
 
 console.log(firstName);
 console.log(firstName);
+<<<<<<< HEAD
 console.log(firstName);
 
 // Variable name conventions
+=======
+
+// Variable name conventions
+console.log(firstName);
+>>>>>>> refs/remotes/origin/main
 let jonas_matilda = 'JM';
 let $function = 27;
 
