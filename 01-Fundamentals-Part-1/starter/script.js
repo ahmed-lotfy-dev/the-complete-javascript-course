@@ -335,4 +335,155 @@ else if (!isGoodVision) {
 console.log(!age < 18);
 console.log(isGoodVision);
 
+// Logical Operators
+const hasDriverLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriverLicense && hasGoodVision);
+console.log(hasDriverLicense || hasGoodVision);
+console.log(!hasDriverLicense);
+
+// if (hasDriverLicense && hasGoodVision) {
+//   console.log(`Sarah is able to drive!`);
+// } else {
+//   console.log(`Someone else should drive...`);
+// }
+
+const isTired = false; // C
+console.log(hasDriverLicense && hasGoodVision && isTired);
+
+if (hasDriverLicense && hasGoodVision && !istired) {
+  console.log(`Sarah is able to drive!`);
+} else {
+  console.log(`Someone else should drive...`);
+}
+*/
+
+/*
+Coding Challenge #3
+There are two gymnastics teams, Dolphins and Koalas. They compete against each
+other 3 times. The winner with the highest average score wins a trophy!
+Your tasks:
+1. Calculate the average score for each team, using the test data below
+2. Compare the team's average scores to determine the winner of the competition,
+and print it to the console. Don't forget that there can be a draw, so test for that
+as well (draw means they have the same average score)
+3. Bonus 1: Include a requirement for a minimum score of 100. With this rule, a
+team only wins if it has a higher score than the other team, and the same time a
+score of at least 100 points. Hint: Use a logical operator to test for minimum
+score, as well as multiple else-if blocks 😉
+4. Bonus 2: Minimum score also applies to a draw! So a draw only happens when
+both teams have the same score and both have a score greater or equal 100
+points. Otherwise, no team wins the trophy
+Test data:
+§Data 1: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
+§Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
+§Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
+GOOD LUCK 😀
+
+// Solution
+// Test Data1
+
+// let dolphinsAverage = Math.floor((96 + 108 + 89) / 3);
+
+// console.log(dolphinsAverage);
+
+// let koalaAverage = Math.floor((88 + 91 + 110) / 3);
+
+// console.log(koalaAverage);
+
+// Bonus Data 1
+
+// let dolphinsAverage = Math.floor((97 + 112 + 101) / 3);
+
+// console.log(dolphinsAverage);
+
+// let koalaAverage = Math.floor((109 + 95 + 123) / 3);
+
+// console.log(koalaAverage);
+
+// Bonus Data 2
+
+let dolphinsAverage = Math.floor((97 + 112 + 101) / 3);
+
+console.log(dolphinsAverage);
+
+let koalaAverage = Math.floor((109 + 95 + 106) / 3);
+
+console.log(koalaAverage);
+
+if (dolphinsAverage > koalaAverage && dolphinsAverage >= 100) {
+  console.log(`dolphins is the winner With ${dolphinsAverage} Goals`);
+} else if (koalaAverage > dolphinsAverage && koalaAverage >= 100) {
+  console.log(`koalaAverage is the winner With ${koalaAverage} Goals`);
+} else if (
+  dolphinsAverage === koalaAverage &&
+  dolphinsAverage > 100 &&
+  koalaAverage > 100
+) {
+  console.log(
+    `The Score Is Draw Both Won The Trophy With ${koalaAverage} Goals`
+  );
+}
+
+// The Switch Statement
+
+const day = 'monday';
+
+switch (day) {
+  case 'monday':
+  case 'tuesday':
+    console.log(`Today Is ${day} `);
+    break;
+  case 'wednesday':
+    console.log(`Today Is ${day} `);
+    break;
+  case 'thursday':
+    console.log(`Today Is ${day} `);
+    break;
+  case 'friday':
+  case 'saturday':
+    console.log(`Today Is ${day} `);
+    break;
+  default:
+    console.log(` it is not a Weekend Day Its ${day}`);
+}
+
+
+// Statement And Expression
+expression is a code that is  expected to return a value 
+statement is a code that is expected to run a complete code block of code 
+
+
+// Coding Challenge #4
+Steven wants to build a very simple tip calculator for whenever he goes eating in a
+restaurant. In his country, it's usual to tip 15% if the bill value is between 50 and
+300. If the value is different, the tip is 20%.
+Your tasks:
+1. Calculate the tip, depending on the bill value. Create a variable called 'tip' for
+this. It's not allowed to use an if/else statement 😅 (If it's easier for you, you can
+start with an if/else statement, and then try to convert it to a ternary
+operator!)
+2. Print a string to the console containing the bill value, the tip, and the final value
+(bill + tip). Example: “The bill was 275, the tip was 41.25, and the total value
+316.25”
+Test data:
+§
+Data 1: Test for bill values 275, 40 and 430
+Hints:
+§To calculate 20% of a value, simply multiply it by 20/100 = 0.2
+§Value X is between 50 and 300, if it's >= 50 && <= 300 😉
+GOOD LUCK 😀
+
+
+// let bill = 275;
+// let bill = 40;
+let bill = 430;
+
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+
+totalBill = bill + tip;
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the total value ${totalBill}`
+);
 */
