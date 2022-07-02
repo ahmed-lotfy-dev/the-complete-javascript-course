@@ -123,6 +123,7 @@ const createUsernames = function (accs) {
       .join('');
   });
 };
+
 createUsernames(accounts);
 
 const updateUI = function (acc) {
