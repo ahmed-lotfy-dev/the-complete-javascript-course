@@ -13,6 +13,7 @@ const tabsContent = document.querySelectorAll('.operations__content');
 
 ///////////////////////////////////////
 // Modal window
+///////////////////////////////////////
 
 const openModal = function (e) {
   e.preventDefault();
@@ -38,6 +39,8 @@ document.addEventListener('keydown', function (e) {
 
 ///////////////////////////////////////
 // Button scrolling
+///////////////////////////////////////
+
 btnScrollTo.addEventListener('click', function (e) {
   const s1coords = section1.getBoundingClientRect();
   console.log(s1coords);
@@ -69,6 +72,7 @@ btnScrollTo.addEventListener('click', function (e) {
 
 ///////////////////////////////////////
 // Page navigation
+///////////////////////////////////////
 
 // document.querySelectorAll('.nav__link').forEach(function (el) {
 //   el.addEventListener('click', function (e) {
@@ -94,6 +98,7 @@ document.querySelector('.nav__links').addEventListener('click', function (e) {
 
 ///////////////////////////////////////
 // Tabbed component
+///////////////////////////////////////
 
 tabsContainer.addEventListener('click', function (e) {
   const clicked = e.target.closest('.operations__tab');
@@ -116,6 +121,8 @@ tabsContainer.addEventListener('click', function (e) {
 
 ///////////////////////////////////////
 // Menu fade animation
+///////////////////////////////////////
+
 const handleHover = function (e) {
   if (e.target.classList.contains('nav__link')) {
     const link = e.target;
@@ -133,15 +140,16 @@ const handleHover = function (e) {
 nav.addEventListener('mouseover', handleHover.bind(0.5));
 nav.addEventListener('mouseout', handleHover.bind(1));
 
-///////////////////////////////////////
+/////////////////////////////////////////////////
 // Sticky navigation: Intersection Observer API
+/////////////////////////////////////////////////
 
 const header = document.querySelector('.header');
 const navHeight = nav.getBoundingClientRect().height;
 
 const stickyNav = function (entries) {
   const [entry] = entries;
-  // console.log(entry);
+  console.log(entry);
 
   if (!entry.isIntersecting) nav.classList.add('sticky');
   else nav.classList.remove('sticky');
@@ -157,6 +165,8 @@ headerObserver.observe(header);
 
 ///////////////////////////////////////
 // Reveal sections
+///////////////////////////////////////
+
 const allSections = document.querySelectorAll('.section');
 
 const revealSection = function (entries, observer) {
@@ -178,7 +188,10 @@ allSections.forEach(function (section) {
   section.classList.add('section--hidden');
 });
 
+///////////////////////////////////////
 // Lazy loading images
+///////////////////////////////////////
+
 const imgTargets = document.querySelectorAll('img[data-src]');
 
 const loadImg = function (entries, observer) {
@@ -206,6 +219,8 @@ imgTargets.forEach(img => imgObserver.observe(img));
 
 ///////////////////////////////////////
 // Slider
+///////////////////////////////////////
+
 const slider = function () {
   const slides = document.querySelectorAll('.slide');
   const btnLeft = document.querySelector('.slider__btn--left');
