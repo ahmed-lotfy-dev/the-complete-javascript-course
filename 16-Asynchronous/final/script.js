@@ -559,7 +559,7 @@ console.log('1: Will get location');
 (async function () {
   try {
     const city = await whereAmI();
-    console.log(`2: ${city}`);
+    console.log(`2: ${ city}`);
   } catch (err) {
     console.error(`2: ${err.message} 💥`);
   }
@@ -575,7 +575,7 @@ const get3Countries = async function (c1, c2, c3) {
     //   `https://restcountries.eu/rest/v2/name/${c1}`
     // );
     // const [data2] = await getJSON(
-    //   `https://restcountries.eu/rest/v2/name/${c2}`
+    //   `https://restcountries.eu/rest/v2/name/${c2}` 
     // );
     // const [data3] = await getJSON(
     //   `https://restcountries.eu/rest/v2/name/${c3}`
