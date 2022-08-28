@@ -3935,7 +3935,7 @@
 130/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/core-js/actual/string/sup.js1658754289057084200 0
 147/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/caniuse-lite/data/features/permissions-api.js1658749948589692900 0
 129/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/core-js/stable/math/imul.js1658754287912346500 0
-115/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/dist/index.3ec6c1be.js.map1658755961839228700 0
+115/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/dist/index.3ec6c1be.js.map1661688176241349000 0
 148/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/css-select/lib/pseudo-selectors/index.d.ts.map1658749944445387600 0
 177/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@parcel/source-map/parcel_sourcemap_wasm/dist-node/parcel_sourcemap_wasm.js1658749944276922100 0
 122/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@parcel/reporter-cli1658749944469194400 1
@@ -4801,7 +4801,7 @@
 136/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/core-js/actual/typed-array/fill.js1658754287396676800 0
 167/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@swc/helpers/src/_class_check_private_static_field_descriptor.mjs1658749945683815500 0
 148/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/caniuse-lite/data/features/webkit-user-drag.js1658749949254442200 0
-97/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/clean.js1652358111508065700 0
+97/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/clean.js1659942492970593100 0
 140/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/css-tree/lib/syntax/node/Identifier.js1658749946028710000 0
 133/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@parcel/utils/src/DefaultMap.js1658749944233441300 0
 127/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@parcel/watcher/README.md1658749944853077600 0
@@ -5557,7 +5557,7 @@
 158/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@swc/helpers/lib/_class_static_private_field_spec_get.js1658749944497341400 0
 139/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/source-map/dist/source-map.min.js.map1658749945085040000 0
 147/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@parcel/watcher/src/windows/WindowsBackend.cc1658749944396419400 0
-111/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/dist/index.3ec6c1be.js1658755961830460700 0
+111/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/dist/index.3ec6c1be.js1661688176237002200 0
 147/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@parcel/runtime-js/lib/helpers/cacheLoader.js1658749943814025500 0
 127/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@parcel/utils/src/glob.js1658749944410532100 0
 119/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@parcel/utils/src1658749946204014400 1
@@ -6082,7 +6082,7 @@
 124/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/color-convert/route.js1658749943675173500 0
 112/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/color-name1658749943338230600 1
 121/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/color-name/index.js1658749943307986500 0
-93/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/dist1658755961840710300 1
+93/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/dist1661688176241818100 1
 131/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/core-js/full/function/virtual1658754289356286500 1
 143/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/caniuse-lite/data/features/videotracks.js1658749949214316500 0
 138/mnt/hdd/Development/the-complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@parcel/watcher/src/watchman/BSER.hh1658749944482242400 0
